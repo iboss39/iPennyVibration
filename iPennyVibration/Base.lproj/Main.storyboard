@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iPennyVibration" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="iSv-qB-D4O">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uPq-uB-PH1">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Hit"/>
+                                        <connections>
+                                            <action selector="Hit:" destination="BYZ-38-t0r" eventType="touchDown" id="BzC-xw-lgH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wK-Y7-IVV">
+                                        <rect key="frame" x="0.0" y="72.333333333333371" width="361" height="34.666666666666629"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Sparkle"/>
+                                        <connections>
+                                            <action selector="Sparkle:" destination="BYZ-38-t0r" eventType="touchDown" id="pT4-Vw-GdQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRt-91-Dbv">
+                                        <rect key="frame" x="0.0" y="145" width="361" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Triple"/>
+                                        <connections>
+                                            <action selector="Triple:" destination="BYZ-38-t0r" eventType="touchDown" id="pzJ-cy-156"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxX-fs-a4Q">
+                                        <rect key="frame" x="0.0" y="217.33333333333331" width="361" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Inflate"/>
+                                        <connections>
+                                            <action selector="Inflate:" destination="BYZ-38-t0r" eventType="touchDown" id="RJT-Dn-Nyg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYD-Et-4sN">
+                                        <rect key="frame" x="0.0" y="289.66666666666669" width="361" height="34.666666666666686"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Strong"/>
+                                        <connections>
+                                            <action selector="MyEffect:" destination="BYZ-38-t0r" eventType="touchDown" id="uyM-LP-sEq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgK-Fj-zQH">
+                                        <rect key="frame" x="0.0" y="362.33333333333331" width="361" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Heartbeats"/>
+                                        <connections>
+                                            <action selector="Heartbeats:" destination="BYZ-38-t0r" eventType="touchDown" id="j19-93-lck"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnP-Eb-NaS">
+                                        <rect key="frame" x="0.0" y="434.66666666666669" width="361" height="34.666666666666686"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Boing"/>
+                                        <connections>
+                                            <action selector="Boing:" destination="BYZ-38-t0r" eventType="touchDown" id="Lm3-Hu-IDG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYB-f8-KGI">
+                                        <rect key="frame" x="0.0" y="507.33333333333331" width="361" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Rumble"/>
+                                        <connections>
+                                            <action selector="Rumble:" destination="BYZ-38-t0r" eventType="touchDown" id="uci-QH-CqO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsK-HZ-Rkc">
+                                        <rect key="frame" x="0.0" y="579.66666666666663" width="361" height="34.333333333333371"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Oscillate"/>
+                                        <connections>
+                                            <action selector="Oscillate:" destination="BYZ-38-t0r" eventType="touchDown" id="RI1-2G-o3B"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cye-S9-mmC">
+                                        <rect key="frame" x="0.0" y="652" width="361" height="34.666666666666629"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Gravel"/>
+                                        <connections>
+                                            <action selector="Gravel:" destination="BYZ-38-t0r" eventType="touchDown" id="pKi-7X-Z9F"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBt-zQ-b0M">
+                                        <rect key="frame" x="0.0" y="724.66666666666663" width="361" height="34.333333333333371"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Recharge"/>
+                                        <connections>
+                                            <action selector="Recharge:" destination="BYZ-38-t0r" eventType="touchDown" id="INK-Y3-n7k"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iSv-qB-D4O" secondAttribute="bottom" id="qHt-62-AFO"/>
+                            <constraint firstItem="iSv-qB-D4O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sdt-Lg-OU7"/>
+                            <constraint firstItem="iSv-qB-D4O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="x5I-Qf-8fE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iSv-qB-D4O" secondAttribute="trailing" constant="16" id="zUB-KW-nQ7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35.877862595419849" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
